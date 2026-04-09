@@ -1,0 +1,33 @@
+.card {
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.card .top img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #dadadada;
+  padding: 2px;
+}
+
+.card .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top button {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadadada;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 14px;
+  gap: 3px;
+  background-color: transparent;
+  color: #b1b1b1;
+}
